@@ -1,5 +1,5 @@
-import React, { useEffect, useRef, useCallback } from 'react';
-import { Excalidraw, useHandleLibrary } from '@excalidraw/excalidraw';
+import React, { useEffect, useRef } from 'react';
+import { Excalidraw } from '@excalidraw/excalidraw';
 import type { ExcalidrawImperativeAPI } from '@excalidraw/excalidraw/types';
 
 interface Props {
