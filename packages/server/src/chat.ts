@@ -1,8 +1,6 @@
 import Anthropic from '@anthropic-ai/sdk';
 import { WebSocket } from 'ws';
 
-console.log('ANTHROPIC_API_KEY loaded:', !!process.env.ANTHROPIC_API_KEY);
-
 const client = new Anthropic();
 
 const SYSTEM_PROMPT = `You are an AI assistant that can both chat AND draw diagrams on an Excalidraw canvas.
